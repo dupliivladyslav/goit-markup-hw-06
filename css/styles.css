@@ -206,21 +206,23 @@ main {
 }
 
 .menu-close-btn:hover {
+  background-color: #404bbf;
+  border: transparent;
 }
 .menu-close-btn:focus {
+  background-color: #404bbf;
+  border: transparent;
+}
+.menu-close-btn:hover .modal-cross-icon {
+  fill: #ffffff;
 }
 
-.modal-cross-icon {
-}
-.mob-menu-navigation {
-}
 .mob-menu-list {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-.mob-menu-item {
-}
+
 .mob-menu-link {
   font-weight: 700;
   font-size: 36px;
@@ -243,8 +245,7 @@ main {
   flex-direction: column;
   gap: 24px;
 }
-.mob-contacts-item {
-}
+
 .mob-contacts-link {
   font-weight: 500;
   font-size: 20px;
