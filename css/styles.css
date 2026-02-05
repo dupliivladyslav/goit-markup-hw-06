@@ -75,7 +75,7 @@ main {
   text-transform: uppercase;
   color: #2e2f42;
   /* margin-right: 76px; */
-  /* padding: 24px 0; */
+
   padding: 16px 0;
 }
 .accent {
@@ -83,7 +83,6 @@ main {
 }
 
 .header-list {
-  /* display: flex; */
   display: none;
   align-items: center;
   gap: 40px;
@@ -802,9 +801,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  pointer-events: none; */
 }
 
 .is-open {
@@ -816,14 +815,17 @@ main {
 .modal {
   position: absolute;
   border-radius: 4px;
-  width: 408px;
-  min-height: 584px;
+
+  width: 288px;
+
+  min-height: 623px;
   box-shadow:
     0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
-  padding: 72px 24px 24px;
+
+  padding: 72px 16px 16px;
 }
 
 .modal-close {
@@ -981,12 +983,13 @@ main {
   color: #8e8f99;
   display: flex;
   align-items: center;
+  flex-direction: row;
   padding-top: 16px;
   padding-bottom: 24px;
 }
 
 .modal-check-accent {
-  line-height: 1.33333;
+  line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
@@ -997,11 +1000,12 @@ main {
   height: 16px;
   border-radius: 2px;
   fill: transparent;
-  border: 1px solid #404bbf;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .modal-check:checked + .modal-check-label .modal-fake-check {
@@ -1017,6 +1021,30 @@ main {
     max-width: 768px;
     padding: 0 16px;
     margin: 0 auto;
+  }
+
+  .header-list {
+    display: flex;
+  }
+
+  .address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .address-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+
+  .header-title-link {
+    padding: 24px 0;
+    margin-right: 120px;
+  }
+  .menu-open-btn {
+    display: none;
   }
 
   .hero-section {
@@ -1116,6 +1144,12 @@ main {
   .footer-form {
     margin-left: 0;
   }
+
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px;
+  }
 }
 
 /* -------------------------DESKTOP------------------------ */
@@ -1124,6 +1158,21 @@ main {
   .container {
     max-width: 1158px;
     padding: 0 15px;
+  }
+
+  .header-title-link {
+    margin-right: 76px;
+  }
+
+  .address-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 
   .hero-section {
