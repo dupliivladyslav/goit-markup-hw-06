@@ -270,7 +270,8 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 320px;
+  /* min-width: 320px; */
+  max-width: 767px;
   margin: 0 auto;
 
   @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
@@ -1050,8 +1051,8 @@ main {
 
   .hero-section {
     padding: 112px 0;
-    max-width: 768px;
-
+    min-width: 768px;
+    max-width: 1157px;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/people-office-tab.jpg);
