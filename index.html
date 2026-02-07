@@ -46,7 +46,7 @@
                 </svg>
             </button>
 
-            <div class="mob-menu">
+            <div class="mob-menu ">
                 <div>
                     <button class="menu-close-btn" type="button">
                         <svg class="modal-cross-icon" width="8" height="8">
@@ -63,7 +63,7 @@
                 </div>
                 <div>
                     <address class="mob-contacts">
-                        <ul class="mob-contacts-list" id="contacts">
+                        <ul class="mob-contacts-list" id="mob-contacts">
                             <li class="mob-contacts-item">
                                 <a class="mob-contacts-link " href="tel:+110001111111">+11 (000) 111-11-11</a>
                             </li>
@@ -349,10 +349,10 @@
                             <picture>
                                 <source
                                     srcset="./images/port-sec-img-bank-mob.jpg 1x, ./images/port-sec-img-bank-mob-2x.jpg 2x"
-                                    media="(max-width: 768px)" />
+                                    media="(max-width: 767px)" />
                                 <source
                                     srcset="./images/port-sec-img-bank-tab.jpg 1x, ./images/port-sec-img-bank-tab-2x.jpg 2x"
-                                    media="(max-width: 1157px)" />
+                                    media="(min-width: 768px)" />
                                 <source
                                     srcset="./images/port-sec-img-bank-desk.jpg 1x, ./images/port-sec-img-bank-desk-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
@@ -374,10 +374,10 @@
                             <picture>
                                 <source
                                     srcset="./images/port-sec-img-pay-mob.jpg 1x, ./images/port-sec-img-pay-mob-2x.jpg 2x"
-                                    media="(max-width: 768px)" />
+                                    media="(max-width: 767px)" />
                                 <source
                                     srcset="./images/port-sec-img-pay-tab.jpg 1x, ./images/port-sec-img-pay-tab-2x.jpg 2x"
-                                    media="(max-width: 1157px)" />
+                                    media="(min-width: 768px)" />
                                 <source
                                     srcset="./images/port-sec-img-pay-desk.jpg 1x, ./images/port-sec-img-pay-desk-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
@@ -399,10 +399,10 @@
                             <picture>
                                 <source
                                     srcset="./images/port-sec-img-lap-mob.jpg 1x, ./images/port-sec-img-lap-mob-2x.jpg 2x"
-                                    media="(max-width: 768px)" />
+                                    media="(max-width: 767px)" />
                                 <source
                                     srcset="./images/port-sec-img-lap-tab.jpg 1x, ./images/port-sec-img-lap-tab-2x.jpg 2x"
-                                    media="(max-width: 1157px)" />
+                                    media="(min-width: 768px)" />
                                 <source
                                     srcset="./images/port-sec-img-lap-desk.jpg 1x, ./images/port-sec-img-lap-desk-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
@@ -423,10 +423,10 @@
                             <picture>
                                 <source
                                     srcset="./images/port-sec-img-drive-mob.jpg 1x, ./images/port-sec-img-drive-mob-2x.jpg 2x"
-                                    media="(max-width: 768px)" />
+                                    media="(max-width: 767px)" />
                                 <source
                                     srcset="./images/port-sec-img-drive-tab.jpg 1x, ./images/port-sec-img-drive-tab-2x.jpg 2x"
-                                    media="(max-width: 1157px)" />
+                                    media="(min-width: 768px)" />
                                 <source
                                     srcset="./images/port-sec-img-drive-desk.jpg 1x, ./images/port-sec-img-drive-desk-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
@@ -449,10 +449,10 @@
                             <picture>
                                 <source
                                     srcset="./images/port-sec-img-phone-mob.jpg 1x, ./images/port-sec-img-phone-mob-2x.jpg 2x"
-                                    media="(max-width: 768px)" />
+                                    media="(max-width: 767px)" />
                                 <source
                                     srcset="./images/port-sec-img-phone-tab.jpg 1x, ./images/port-sec-img-phone-tab-2x.jpg 2x"
-                                    media="(max-width: 1157px)" />
+                                    media="(min-width: 768px)" />
                                 <source
                                     srcset="./images/port-sec-img-phone-desk.jpg 1x, ./images/port-sec-img-phone-desk-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
@@ -473,10 +473,10 @@
                             <picture>
                                 <source
                                     srcset="./images/port-sec-img-girl-mob.jpg 1x, ./images/port-sec-img-girl-mob-2x.jpg 2x"
-                                    media="(max-width: 768px)" />
+                                    media="(max-width: 767px)" />
                                 <source
                                     srcset="./images/port-sec-img-girl-tab.jpg 1x, ./images/port-sec-img-girl-tab-2x.jpg 2x"
-                                    media="(max-width: 1157px)" />
+                                    media="(min-width: 768px)" />
                                 <source
                                     srcset="./images/port-sec-img-girl-desk.jpg 1x, ./images/port-sec-img-girl-desk-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
@@ -580,14 +580,14 @@
                 <label class="modal-label" for="user-tel">Phone </label>
                 <div class="modal-input-wrapper">
                     <input type="tel" class="modal-input" name="user-tel" required id="user-tel">
-                    <svg class="modal-input-icons" width="13" height="13">
+                    <svg class="modal-input-icons" width="18" height="24">
                         <use href="./images/icons.svg#icon-phone-modal"></use>
                     </svg>
                 </div>
                 <label class="modal-label" for="user-email"> Email</label>
                 <div class="modal-input-wrapper">
                     <input type="email" class="modal-input" name="user-email" required id="user-email">
-                    <svg class="modal-input-icons" width="15" height="12">
+                    <svg class="modal-input-icons" width="18" height="24">
                         <use href="./images/icons.svg#icon-email-modal"></use>
                     </svg>
                 </div>
@@ -600,7 +600,7 @@
                     <input type="checkbox" name="policy" id="policy" value="true" required
                         class="modal-check visually-hidden">
                     <label class="modal-check-label" for="policy"> <span class="modal-fake-check">
-                            <svg class="modal-check-icon" width="10" height="8">
+                            <svg class="modal-check-icon" width="18" height="24">
                                 <use href="./images/icons.svg#icon-check"></use>
                             </svg>
                         </span>

@@ -177,6 +177,12 @@ main {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .menu-close-btn {
   /* position: absolute; */
   margin-left: auto;
@@ -383,6 +389,7 @@ main {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 .benefits-section-text {
   /* font-weight: 400;
@@ -432,7 +439,6 @@ main {
   justify-content: center;
   border-radius: 0 0 4px 4px;
   width: 264px;
-
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
@@ -771,7 +777,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer-form-container {
@@ -803,9 +809,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  pointer-events: none; */
 }
 
 .is-open {
@@ -1086,6 +1092,10 @@ main {
     width: calc((100% - 24px) / 2);
   }
 
+  .benefits-section-title {
+    text-align: left;
+  }
+
   .team-section-list {
     gap: 24px;
     row-gap: 64px;
@@ -1141,6 +1151,10 @@ main {
 
   .footer-form-container {
     align-items: flex-start;
+  }
+
+  .footer-input {
+    width: 264px;
   }
 
   .footer-form {
@@ -1234,7 +1248,7 @@ main {
   }
 
   .team-section {
-    padding-bottom: 0;
+    /* padding-bottom: 0; */
   }
 
   .team-section-list {
