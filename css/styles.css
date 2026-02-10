@@ -123,16 +123,12 @@ main {
 }
 
 .address {
-  display: flex;
+  display: none;
   align-items: center;
   font-style: normal;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 }
 
 .address-list {
-  /* display: flex; */
   display: none;
   gap: 40px;
 }
@@ -247,6 +243,7 @@ main {
   flex-direction: column;
   gap: 48px;
   margin-bottom: 40px;
+  font-style: normal;
 }
 .mob-contacts-list {
   /* margin-top: 168px; */
@@ -1088,9 +1085,7 @@ main {
   }
 
   .address {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+    display: flex;
   }
 
   .address-list {
