@@ -137,9 +137,9 @@ main {
 .address-link {
   display: inline-block;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -703,7 +703,7 @@ main {
   background-color: #31d0aa;
 }
 
-.footer-form-label {
+.footer-form-header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -1090,7 +1090,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    row-gap: 64px;
+    row-gap: 72px;
   }
   .benefits-section-item {
     width: calc((100% - 24px) / 2);
@@ -1151,6 +1151,7 @@ main {
 
   .footer-form-wrapper {
     flex-direction: row;
+    gap: 24px;
   }
 
   .footer-form-container {
