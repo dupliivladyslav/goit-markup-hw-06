@@ -126,6 +126,9 @@ main {
   display: flex;
   align-items: center;
   font-style: normal;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .address-list {
@@ -1037,6 +1040,12 @@ main {
 
   .header-list {
     display: flex;
+  }
+
+  .address {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
   }
 
   .address-list {
