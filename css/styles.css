@@ -74,7 +74,6 @@ main {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  /* margin-right: 76px; */
 
   padding: 16px 0;
 }
@@ -183,7 +182,6 @@ main {
 }
 
 .menu-close-btn {
-  /* position: absolute; */
   margin-left: auto;
   margin-right: 8px;
   margin-top: 8px;
@@ -207,7 +205,6 @@ main {
   flex-direction: row;
   gap: 40px;
   padding: 0;
-  /* margin-bottom: 40px; */
 }
 
 .menu-close-btn:hover {
@@ -246,7 +243,6 @@ main {
   font-style: normal;
 }
 .mob-contacts-list {
-  /* margin-top: 168px; */
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -276,7 +272,7 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* min-width: 320px; */
+
   max-width: 767px;
   margin: 0 auto;
 }
@@ -289,7 +285,6 @@ main {
   }
 }
 
-/* Mobile 2x */
 @media (max-width: 767px), (-webkit-min-device-pixel-ratio: 2) {
   .hero-section {
     background-image:
@@ -298,7 +293,6 @@ main {
   }
 }
 
-/* Tablet 1x */
 @media (min-width: 768px) {
   .hero-section {
     background-image:
@@ -307,7 +301,6 @@ main {
   }
 }
 
-/* Tablet 2x */
 @media (min-width: 768px), (-webkit-min-device-pixel-ratio: 2) {
   .hero-section {
     background-image:
@@ -316,7 +309,6 @@ main {
   }
 }
 
-/* Desktop 1x */
 @media (min-width: 1158px) {
   .hero-section {
     background-image:
@@ -325,7 +317,6 @@ main {
   }
 }
 
-/* Desktop 2x */
 @media (min-width: 1158px), (-webkit-min-device-pixel-ratio: 2) {
   .hero-section {
     background-image:
@@ -343,8 +334,6 @@ main {
   justify-content: center;
   text-align: center;
   color: #fff;
-  /* padding-left: 52px;
-  padding-right: 52px; */
 }
 .hero-section-button {
   font-weight: 500;
@@ -393,7 +382,6 @@ main {
 }
 
 .benefits-section {
-  /* padding: 120px 0; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -401,36 +389,19 @@ main {
 .benefits-section-list {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center;
-  align-items: center; */
-  /* gap: 24px; */
+
   gap: 72px;
 }
 
 .benefits-section-item {
-  /* display: block; */
-  /* max-width:264px; */
   width: 100%;
 }
 
 .benefits-section-icon-box {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background-color: #f4f4fd; */
   display: none;
 }
 
 .benefits-section-title {
-  /* font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-top: 8px; */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -439,11 +410,6 @@ main {
   text-align: center;
 }
 .benefits-section-text {
-  /* font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -477,9 +443,6 @@ main {
   align-items: center;
   gap: 72px;
   margin-top: 72px;
-  /* padding-top: 72px;
-  padding-left: 28px;
-  padding-right: 28px; */
 }
 .team-section-item {
   background-color: #fff;
@@ -589,7 +552,7 @@ main {
   display: inline-block;
   align-items: center;
   justify-content: center;
-  /* width: 100%; */
+
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
@@ -606,7 +569,7 @@ main {
 .portfolio-photo-wrapper img {
   display: block;
   object-fit: cover;
-  /* object-position: left; */
+
   height: 100%;
 }
 
@@ -734,13 +697,7 @@ main {
 
   justify-content: center;
   gap: 72px;
-  /* padding-top: 96px;
-  padding-bottom: 96px; */
 }
-
-/* .socials.footer-socials {
-  gap: 16px;
-} */
 
 .footer-social-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1121,13 +1078,6 @@ main {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/people-office-tab.jpg);
-
-    /* @media screen and (min-resolution: 2x),
-      (-webkit-min-device-pixel-ratio: 2) {
-      background-image:
-        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office-tab-2x.jpg);
-    } */
   }
 
   .hero-section-title {
