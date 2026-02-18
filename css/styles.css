@@ -1144,8 +1144,6 @@ main {
     justify-content: flex-start;
     gap: 24px;
     row-gap: 72px;
-    /* padding-left: 108px;
-    padding-right: 108px; */
   }
 
   .footer-main-container {
@@ -1251,9 +1249,6 @@ main {
     color: #434455;
     margin-top: 8px;
   }
-  /* .team-section {
-    padding: 120px 0;
-  } */
 
   .team-section-list {
     flex-wrap: nowrap;
