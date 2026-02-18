@@ -204,7 +204,7 @@ main {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  padding: 0;
+  padding-bottom: 24px;
 }
 
 .menu-close-btn:hover {
@@ -273,6 +273,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
 
+  min-width: 320px;
   max-width: 767px;
   margin: 0 auto;
 }
@@ -330,6 +331,7 @@ main {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  width: 216px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -670,7 +672,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 208px;
+  /* max-width: 208px; */
 }
 
 .footer-social-media-header {
@@ -1083,7 +1085,7 @@ main {
   .hero-section-title {
     font-size: 56px;
     line-height: 1.07;
-    max-width: 496px;
+    min-width: 496px;
     padding: 0;
   }
 
@@ -1136,14 +1138,14 @@ main {
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 96px;
-    padding-bottom: 96px;
+    /* padding-top: 96px;
+    padding-bottom: 96px; */
     align-items: baseline;
     justify-content: flex-start;
     gap: 24px;
     row-gap: 72px;
-    padding-left: 108px;
-    padding-right: 108px;
+    /* padding-left: 108px;
+    padding-right: 108px; */
   }
 
   .footer-main-container {
@@ -1249,9 +1251,11 @@ main {
     color: #434455;
     margin-top: 8px;
   }
+  /* .team-section {
+    padding: 120px 0;
+  } */
 
   .team-section-list {
-    padding-bottom: 120px;
     flex-wrap: nowrap;
   }
 
@@ -1291,10 +1295,13 @@ main {
     width: 360px;
   }
 
-  .footer-container {
-    flex-wrap: nowrap;
+  .footer {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  .footer-container {
+    flex-wrap: nowrap;
     align-items: baseline;
     justify-content: flex-start;
     gap: 0;
