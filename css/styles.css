@@ -239,7 +239,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 48px;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
   font-style: normal;
 }
 .mob-contacts-list {
@@ -286,7 +286,7 @@ main {
   }
 }
 
-@media (max-width: 767px), (-webkit-min-device-pixel-ratio: 2) {
+@media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
   .hero-section {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -302,7 +302,7 @@ main {
   }
 }
 
-@media (min-width: 768px), (-webkit-min-device-pixel-ratio: 2) {
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   .hero-section {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -318,7 +318,7 @@ main {
   }
 }
 
-@media (min-width: 1158px), (-webkit-min-device-pixel-ratio: 2) {
+@media (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2) {
   .hero-section {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -673,6 +673,10 @@ main {
   align-items: center;
   justify-content: center;
   /* max-width: 208px; */
+}
+
+.socials.footer-socials {
+  gap: 16px;
 }
 
 .footer-social-media-header {
